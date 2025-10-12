@@ -2,7 +2,7 @@
 #include<stdio.h>
 void sorting(int arr[],int l){
   for(int i=0;i<l-1;i++){
-    for(int j=i;j<l;j++){
+    for(int j=i+1;j<l;j++){
         if(arr[i]>arr[j]){
             int temp=arr[i];
             arr[i]=arr[j];
