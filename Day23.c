@@ -9,10 +9,10 @@
     }
     int freq1[256]={0};
     int freq2[256]={0};
-    for(int i=0;k[i]!='\0';i++){
-        freq1[k[i]]++;
-        freq2[a[i]]++;
-    }
+    // for(int i=0;k[i]!='\0';i++){
+    //     freq1[k[i]]++;
+    //     freq2[a[i]]++;
+    // }
     
     for (int i = 0; k[i] != '\0'; i++) {
         freq1[(unsigned char)k[i]]++;
