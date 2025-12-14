@@ -9,7 +9,7 @@ int main(){
       printf("arr[%d]:",i);
       scanf("%d",&arr[i]);
     }
-    printf("reverse of the array will be\n");
+    printf("Reverse of the array:\n");
     for(int i=0;i<n/2;i++){
        int temp=arr[i];
        arr[i]=arr[n-i-1];
