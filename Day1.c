@@ -8,11 +8,11 @@ int main(){
         max=arr[i];
     }
    }
-   printf("max:%d\n",max);
+   printf("max element:%d\n",max);
     for(int i=0;i<6;i++){
     if(min>arr[i]){
         min=arr[i];
     }
    }
-   printf("min:%d",min);
+   printf("min element:%d ",min);
 }
