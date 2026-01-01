@@ -16,12 +16,12 @@ int main(){
  int l=sizeof(arr)/sizeof(arr[0]);
  int k,n;
  sorting(arr,l);
- printf("enter the kth value max want to find");
+ printf("Enter the kth value max want to find:");
  scanf("%d",&k);
  printf("%d is the %d max \n",arr[l-k],k);
- printf("enter the kth value min want to find ");
+ printf("Enter the kth value min want to find: ");
  scanf("%d",&n);
- printf("%d is the %d min",arr[n-1],n);
+ printf("%d is the: %d min",arr[n-1],n);
  return 0;
 
 
