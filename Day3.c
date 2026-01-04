@@ -1,12 +1,15 @@
 //Find the 'Kth' max and min element of an array
 #include<stdio.h>
 void sorting(int arr[],int l){
-  for(int i=0;i<l-1;i++){
-    for(int j=i+1;j<l;j++){
-        if(arr[i]>arr[j]){
-            int temp=arr[i];
-            arr[i]=arr[j];
-            arr[j]=temp;
+  int check=1;
+  for(int i=0;i< l-1 && check==1;i++){
+    check=0;
+    for(int j=0;j<l-i-1;j++){
+        if(arr[j+1]>arr[j]){
+            check=1;
+            int temp=arr[j];
+            arr[j]=arr[j+1];
+            arr[j+1]=temp;
         }
     }
   }
